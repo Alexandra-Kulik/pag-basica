@@ -18,11 +18,13 @@
     margin: 0;
     color: #333;
     display: flex;
+    justify-content: center;
 }
 
 .header p {
     margin: 5px 0 0;
     color: #666;
+    justify-content: center;
 }
 
 /* Barra de navegação */
@@ -31,6 +33,7 @@
     text-align: center;
     padding: 10px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
 }
 
 .nav ul {
@@ -51,11 +54,14 @@
     text-decoration: none;
     font-weight: bold;
     padding: 10px 15px;
+    display: flex;
 }
 
 /* Conteúdo principal */
 .main {
     padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .sobre{
