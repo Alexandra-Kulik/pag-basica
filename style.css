@@ -10,6 +10,7 @@
     background-color: #f8f9fa;
     padding: 20px;
     text-align: center;
+    justify-content: center;
 }
 
 .header h1 {
@@ -65,7 +66,7 @@
 
 .seviços{
     display: flex;
-    justify-content: center
+    justify-content: center;
     flex-direction: column;
     color: darkblue;
     padding: 10px 20px;
