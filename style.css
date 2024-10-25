@@ -1,0 +1,88 @@
+/* Estilos gerais */
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    color: #333;
+}
+
+.header p {
+    margin: 5px 0 0;
+    color: #666;
+}
+
+/* Barra de navegação */
+.nav {
+    background-color: #007bff;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav li {
+    position: relative;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+/* Conteúdo principal */
+.main {
+    padding: 20px;
+}
+
+.sobre{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: darkblue;
+    padding: 10px 20px;
+}
+
+.seviços{
+    display: flex;
+    justify-content: center
+    flex-direction: column;
+    color: darkblue;
+    padding: 10px 20px;
+}
+
+.contato{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: darkblue;
+    padding: 10px 20px;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #000;
+    text-align: center;
+    padding: 15px;
+    color: #f8f9fa;
+}
